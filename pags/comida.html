@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navidaaaaaaa</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+    <div class="cajita">
+       <header><h1>COMIDA</h1></header>
+        <nav>
+    <a href="../index.html">Bienvenida</a>
+    <a href="historia.html">Historia</a>
+    <a href="personajes.html">Personajes</a>
+    <a href="regalos.html">Regalos</a>
+    <a href="comida.html">Comida</a>
+</nav>
+    </div>
+    <div class="cajita">
+       <h4>COMIDAAA</h4>
+       <img src="../img/nyan.gif" alt="" id="nyancat">
+       <p>
+           Si oprimes el boton de abajo te dare algunas opciones sobre que platillos preparar para navida
+       </p>
+       <button onclick="comida()">Platillos</button>
+       </br>
+       <p>TE GUSTARIA COMPRAR ALGUN PLATILLO?</p>
+       <button onclick="agregar('Pavo', 60)"> Pavo $60</button>
+<button onclick="agregar('Lechón', 80)"> Lechón $80</button>
+<button onclick="agregar('Pollo', 30)"> Pollo $30</button>
+<button onclick="agregar('Asado de res', 70)"> Asado de res $70</button>
+
+<p id="carrito">Carrito vacío</p>
+<p id="total">Total: $0</p>
+
+<button onclick="comprar()">Comprar</button>
+<button onclick="vaciar()">Vaciar</button>
+    </div>
+    <script src="../script2.js"></script>
+</body>
+</html>
