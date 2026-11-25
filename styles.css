@@ -1,0 +1,55 @@
+h1{
+    text-align: center ;
+}
+body{
+    background-color: red;
+}
+.cajita{
+    border: 1px ;
+    border-style: none;
+    padding:5px;
+    background-color: green;
+    margin:5px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+nav a {
+    border: solid;
+    padding: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+table{
+    border:5px;
+    border-style:none;
+}
+#wasa, #zzz, #ccc{
+    border: 5px ;
+    border-style: solid;
+    padding:5px;
+    background-color: yellow;
+    margin:5px;
+}
+button{
+    background-color:orange;
+    
+}
+.cajita2{
+    border: 1px ;
+    border-style: none;
+    padding:5px;
+    background-color: yellow;
+    margin:5px;
+}
+.cajita3{
+    border:1px;
+    border-style:none;
+    padding:5px;
+    background-color:gold;
+    margin:5px;
+}
